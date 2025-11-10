@@ -1,0 +1,10 @@
+^D:\PROJECTS\SP_PROJECT\SP-DEDUP\BUILD\CMAKEFILES\EADC69017426B5ECB589BE86F09D3DA1\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/sp_project/sp-dedup -BD:/Projects/sp_project/sp-dedup/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/sp_project/sp-dedup/build/sp_dedup.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

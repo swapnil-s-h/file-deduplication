@@ -1,0 +1,50 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3b27439921cfa7f52be59752c92576c6e1bd7f495c566cedefdf6c01c4359dcf
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 015483cf078682fecb2292f1389b2e9aa18d606d42c2a110561aa33ac397fa61
+Description: A compression library
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 465bb8fc9553187a30a2cae77a658feb9e12016876d7b856a0d15f8648c1938f
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f536d4605c73c466b9c52c4405f17f6a4fb5ff2de8ea1afa7afa3e5b68e7aab7
+Status: install ok installed
+
+Package: minizip
+Version: 1.3.1
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config, vcpkg-cmake-get-vars, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4bfd7e8b8aa13b2fa16cad960a02abbf16f339a9976612f0243cdf46a3cc7bfe
+Description: Minizip zip file manipulation library
+Status: install ok installed
+
+Package: tinyxml2
+Version: 11.0.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: c9d57b163264e78dc6ac6e425af89ce429f626220904879cfc37f70a60fb5ffa
+Description: A simple, small, efficient, C++ XML parser
+Status: install ok installed
+

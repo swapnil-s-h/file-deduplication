@@ -1,0 +1,2465 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 11/8/2025 4:29:28 PM.
+      
+      Project "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:09.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Projects/sp_project/sp-dedup/build/CMakeFiles/4.2.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
+      - "D:/ORACLE/bin/lld-link.com"
+      - "D:/ORACLE/bin/lld-link.exe"
+      - "D:/ORACLE/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/lld-link.com"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/lld-link.exe"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Users/phoenix/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/phoenix/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/phoenix/AppData/Roaming/npm/lld-link"
+      - "D:/Program Files/nodejs/lld-link.com"
+      - "D:/Program Files/nodejs/lld-link.exe"
+      - "D:/Program Files/nodejs/lld-link"
+      - "D:/Program Files/mongosh/bin/lld-link.com"
+      - "D:/Program Files/mongosh/bin/lld-link.exe"
+      - "D:/Program Files/mongosh/bin/lld-link"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/lld-link.com"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/lld-link.exe"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/lld-link"
+      - "D:/Program Files/Tesseract-OCR/lld-link.com"
+      - "D:/Program Files/Tesseract-OCR/lld-link.exe"
+      - "D:/Program Files/Tesseract-OCR/lld-link"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link.com"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link.exe"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link"
+      - "D:/Users/phoenix/Git/bin/lld-link.com"
+      - "D:/Users/phoenix/Git/bin/lld-link.exe"
+      - "D:/Users/phoenix/Git/bin/lld-link"
+      - "D:/Users/phoenix/Git/cmd/lld-link.com"
+      - "D:/Users/phoenix/Git/cmd/lld-link.exe"
+      - "D:/Users/phoenix/Git/cmd/lld-link"
+      - "D:/Program Files/swipl/bin/lld-link.com"
+      - "D:/Program Files/swipl/bin/lld-link.exe"
+      - "D:/Program Files/swipl/bin/lld-link"
+      - "D:/Program Files/PostgreSQL/17/bin/lld-link.com"
+      - "D:/Program Files/PostgreSQL/17/bin/lld-link.exe"
+      - "D:/Program Files/PostgreSQL/17/bin/lld-link"
+      - "D:/Program Files/CMake/bin/lld-link.com"
+      - "D:/Program Files/CMake/bin/lld-link.exe"
+      - "D:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Program Files/Java/jdk-22/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-22/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-22/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/lld-link"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/lld-link.com"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/lld-link.exe"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/lld-link"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
+      - "D:/ORACLE/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/phoenix/AppData/Local/Pub/Cache/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/phoenix/AppData/Roaming/npm/"
+      - "D:/Program Files/nodejs/"
+      - "D:/Program Files/mongosh/bin/"
+      - "C:/Users/phoenix/StudioProjects/edi_project_sem1/Git/cmd/"
+      - "D:/Program Files/Tesseract-OCR/"
+      - "D:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "D:/Users/phoenix/Git/bin/"
+      - "D:/Users/phoenix/Git/cmd/"
+      - "D:/Program Files/swipl/bin/"
+      - "D:/Program Files/PostgreSQL/17/bin/"
+      - "D:/Program Files/CMake/bin/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/"
+      - "C:/Program Files/Java/jdk-22/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/bin/"
+      - "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Program Files/CMake/bin/"
+      - "D:/Program Files/CMake/sbin/"
+      - "D:/Program Files/CMake/"
+      - "C:/Program Files/sp_dedup/bin/"
+      - "C:/Program Files/sp_dedup/sbin/"
+      - "C:/Program Files/sp_dedup/"
+    searched_directories:
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/sp_dedup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program Files/CMake"
+        - "C:/Program Files/sp_dedup"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/CMakeScratch/TryCompile-kx1q98"
+      binary: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/CMakeScratch/TryCompile-kx1q98"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Projects/sp_project/sp-dedup/build/CMakeFiles/CMakeScratch/TryCompile-kx1q98'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d91b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 11/8/2025 4:29:40 PM.
+        
+        Project "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\cmTC_d91b3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\".
+          Creating directory "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d91b3.dir\\Debug\\\\" /Fd"cmTC_d91b3.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_d91b3.dir\\Debug\\\\" /Fd"cmTC_d91b3.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\cmTC_d91b3.exe" /INCREMENTAL /ILK:"cmTC_d91b3.dir\\Debug\\cmTC_d91b3.ilk" /NOLOGO /LIBPATH:"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/sp_project/sp-dedup/build/CMakeFiles/CMakeScratch/TryCompile-kx1q98/Debug/cmTC_d91b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/Projects/sp_project/sp-dedup/build/CMakeFiles/CMakeScratch/TryCompile-kx1q98/Debug/cmTC_d91b3.lib" /MACHINE:X64  /machine:x64 cmTC_d91b3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d91b3.vcxproj -> D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\cmTC_d91b3.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\cmTC_d91b3.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\cmTC_d91b3.write.1u.tlog" "cmTC_d91b3.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\cmTC_d91b3.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\cmTC_d91b3.write.1u.tlog" "cmTC_d91b3.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\Projects\\sp_project\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\Debug\\cmTC_d91b3.exe" "D:\\Projects\\sp_project\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\cmTC_d91b3.write.1u.tlog" "cmTC_d91b3.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d91b3.dir\\Debug\\cmTC_d91b3.tlog\\cmTC_d91b3.lastbuildstate".
+        Done Building Project "D:\\Projects\\sp_project\\sp-dedup\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx1q98\\cmTC_d91b3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:05.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35219.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:13 (find_package)"
+    name: "tinyxml2"
+    configs:
+      -
+        filename: "tinyxml2Config.cmake"
+        kind: "cmake"
+      -
+        filename: "tinyxml2-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "tinyxml2"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/tinyxml2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/sp_dedup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program Files/CMake"
+        - "C:/Program Files/sp_dedup"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:14 (find_package)"
+    name: "minizip"
+    configs:
+      -
+        filename: "minizipConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "minizip-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "minizip"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/sp_dedup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program Files/CMake"
+        - "C:/Program Files/sp_dedup"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "unofficial-minizip"
+    configs:
+      -
+        filename: "unofficial-minizipConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "unofficial-minizip-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "unofficial-minizip"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Projects/sp_project/sp-dedup/build/CMakeFiles/pkgRedirects/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/bin/x86/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/Microsoft.NET/Framework/v4.0.30319/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/ORACLE/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Roaming/npm/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/nodejs/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/mongosh/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/MySQL/MySQL Server 8.0/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/Git/cmd/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/swipl/cmake/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/PostgreSQL/17/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files/CMake/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Shell 8.0/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/Scripts/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Python/Python311/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/JetBrains/IntelliJ IDEA 2024.1.4/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/phoenix/AppData/Local/Microsoft/WindowsApps/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/cursor/resources/app/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Users/phoenix/AppData/Local/Programs/Microsoft VS Code/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/unofficial-minizipConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/unofficial-minizip-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
+        - "D:\\ORACLE\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Pub\\Cache\\bin"
+        - "C:\\MinGW\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Program Files\\nodejs\\"
+        - "D:\\Program Files\\mongosh\\bin"
+        - "C:\\Users\\phoenix\\StudioProjects\\edi_project_sem1\\Git\\cmd"
+        - "D:\\Program Files\\Tesseract-OCR"
+        - "D:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "D:\\Users\\phoenix\\Git\\bin"
+        - "D:\\Users\\phoenix\\Git\\cmd"
+        - "D:\\Program Files\\swipl\\bin"
+        - "D:\\Program Files\\PostgreSQL\\17\\bin"
+        - "D:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Program Files\\Java\\jdk-22\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.1.4\\bin"
+        - "C:\\Users\\phoenix\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\phoenix\\AppData\\Roaming\\npm"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "D:\\Users\\phoenix\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/sp_dedup"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Program Files/CMake"
+        - "C:/Program Files/sp_dedup"
+...

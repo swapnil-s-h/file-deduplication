@@ -1,0 +1,8 @@
+{
+  "name": "sp-dedup",
+  "version": "1.0.0",
+  "dependencies": [
+    "tinyxml2",
+    "minizip"
+  ]
+}

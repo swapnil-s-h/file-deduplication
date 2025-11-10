@@ -1,0 +1,6 @@
+D:\Projects\sp_project\sp-dedup\src\main.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\main.obj
+D:\Projects\sp_project\sp-dedup\src\file_ops.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\file_ops.obj
+D:\Projects\sp_project\sp-dedup\src\hasher_win.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\hasher_win.obj
+D:\Projects\sp_project\sp-dedup\src\zip_util.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\zip_util.obj
+D:\Projects\sp_project\sp-dedup\src\docx_dedupe.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\docx_dedupe.obj
+D:\Projects\sp_project\sp-dedup\src\xlsx_dedupe.cpp;D:\Projects\sp_project\sp-dedup\build\sp_dedup.dir\Release\xlsx_dedupe.obj
