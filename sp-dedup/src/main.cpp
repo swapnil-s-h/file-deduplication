@@ -1,114 +1,148 @@
+#include <iostream>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+#include <filesystem>
+#include <string>
+#include <optional>
 #include "file_ops.h"
 #include "hasher.h"
-#include "docx_dedupe.h"
-#include "xlsx_dedupe.h"
+#include "docx_dedup.h"
+#include "xlsx_dedup.h"
 
-#include <filesystem>
-#include <iostream>
-#include <map>
-#include <unordered_map>
-#include <vector>
-#include <string>
-#include <algorithm>
+namespace fs = std::filesystem;
+
+struct Args {
+    fs::path root;
+    bool recurse = false;
+    std::unordered_set<std::string> only_ext;   // e.g. {".docx",".xlsx",".txt"}
+    bool commit = false;        // actually delete / rewrite
+    bool within = false;        // Phase-2 in-file dedup
+};
+
+static void usage() {
+    std::cout <<
+        "Usage:\n"
+        "  sp_dedup.exe <directory> [--recurse] [--only-ext=.docx,.xlsx,.txt]\n"
+        "               [--commit] [--within]\n"
+        "Examples:\n"
+        "  sp_dedup.exe D:\\Documents\\sample_files --recurse --only-ext=.docx,.xlsx,.txt\n"
+        "  sp_dedup.exe D:\\docs --recurse --only-ext=.docx --within --commit\n";
+}
+
+static std::optional<Args> parse(int argc, char** argv) {
+    if (argc < 2) { usage(); return std::nullopt; }
+    Args a; a.root = fs::path(argv[1]);
+    for (int i=2;i<argc;i++) {
+        std::string s = argv[i];
+        if (s == "--recurse") a.recurse = true;
+        else if (s.rfind("--only-ext=",0)==0) {
+            std::string list = s.substr(std::string("--only-ext=").size());
+            size_t pos=0;
+            while (pos < list.size()) {
+                size_t comma = list.find(',', pos);
+                auto item = list.substr(pos, comma==std::string::npos ? std::string::npos : comma-pos);
+                if (!item.empty()) a.only_ext.insert(item);
+                if (comma==std::string::npos) break;
+                pos = comma+1;
+            }
+        } else if (s == "--commit") a.commit = true;
+        else if (s == "--within") a.within = true;
+        else { std::cerr << "Unknown arg: " << s << "\n"; usage(); return std::nullopt; }
+    }
+    return a;
+}
 
 int main(int argc, char** argv) {
-    if (argc < 2) {
-        std::cout <<
-            "sp-dedup\n"
-            "Usage:\n"
-            "  sp_dedup <folder> [--recurse] [--only-ext=.docx,.xlsx,.txt]\n"
-            "  sp_dedup <folder> --purge        (delete duplicates, keep one)\n";
-        return 0;
+    auto argsOpt = parse(argc, argv);
+    if (!argsOpt) return 1;
+    auto args = *argsOpt;
+
+    if (!fs::exists(args.root) || !fs::is_directory(args.root)) {
+        std::cerr << "Not a directory: " << args.root << "\n";
+        return 2;
     }
 
-    std::filesystem::path root = argv[1];
-    bool recurse = false;
-    bool purge = false;
-    std::vector<std::string> allow_ext;
+    // Phase-1: file-level duplicate removal (hash-bytes, group by ext+size+sha256)
+    std::vector<std::string> ext_filter;
+    if (!args.only_ext.empty()) {
+        for (auto& e : args.only_ext) ext_filter.push_back(e);
+    }
 
-    for (int i = 2; i < argc; ++i) {
-        std::string a = argv[i];
-        if (a == "--recurse") recurse = true;
-        else if (a == "--purge") purge = true;
-        else if (a.rfind("--only-ext=", 0) == 0) {
-            std::string rest = a.substr(11);
-            size_t pos = 0;
-            while (pos < rest.size()) {
-                size_t comma = rest.find(',', pos);
-                std::string ext = rest.substr(pos, comma == std::string::npos ? rest.size()-pos : comma - pos);
-                if (!ext.empty()) {
-                    if (ext[0] != '.') ext = "." + ext;
-                    for (auto& c : ext) c = (char)std::tolower((unsigned char)c);
-                    allow_ext.push_back(ext);
-                }
-                if (comma == std::string::npos) break;
-                pos = comma + 1;
-            }
-        } else {
-            std::cerr << "Unknown option: " << a << "\n";
-            return 1;
+    auto files = list_target_files(args.root, args.recurse, ext_filter);
+
+    std::unordered_map<std::string, std::vector<fs::path>> buckets; // key=ext|size|sha
+    size_t scanned=0;
+
+    for (auto& fi : files) {
+        if (!args.only_ext.empty()) {
+            auto ext = fi.path.extension().string();
+            if (args.only_ext.count(ext)==0) continue;
+        }
+        try {
+            auto h = sha256_hex_file(fi.path);
+            std::string key = fi.path.extension().string() + "|" + std::to_string(fi.size) + "|" + h;
+            buckets[key].push_back(fi.path);
+            ++scanned;
+        } catch (...) {
+            std::cerr << "Failed to hash: " << fi.path << "\n";
         }
     }
 
-    auto files = list_files(root, recurse, allow_ext);
-
-    using Key1 = std::pair<std::string, std::uintmax_t>;
-    std::map<Key1, std::vector<FileInfo>> groups;
-    for (auto& f : files) {
-        groups[{std::string(f.path.extension().string()), f.size}].push_back(f);
-    }
-
-    std::size_t dup_sets = 0, dup_files = 0, total = files.size();
-    for (auto& [k, vec] : groups) {
+    size_t dupSets=0, removable=0;
+    for (auto& [key, vec] : buckets) {
         if (vec.size() < 2) continue;
-        std::unordered_map<std::string, std::vector<std::filesystem::path>> hmap;
+        ++dupSets;
+        //stable keep-first
+        std::cout << "\nDuplicate set (ext=" << fs::path(vec[0]).extension().string()
+                  << ", size=" << fs::file_size(vec[0])
+                  << ", sha256=" << key.substr(key.rfind('|')+1) << ")\n";
+        for (size_t i=0;i<vec.size();++i) {
+            if (i==0) {
+                std::cout << "  [KEEP] " << vec[i].string() << "\n";
+            } else {
+                std::cout << "  [DEL ] " << vec[i].string() << "\n";
+                if (args.commit) delete_file(vec[i]);
+                ++removable;
+            }
+        }
+    }
 
-        for (auto& fi : vec) {
+    std::cout << "\nScanned files: " << scanned << "\n"
+              << "Duplicate sets: " << dupSets << "\n"
+              << "Files removable: " << removable << "\n";
+
+    // Phase-2: within-file dedup (docx/xlsx/txt)
+    if (args.within) {
+        std::cout << "\n=== Phase-2: Within-file de-duplication ===\n";
+        for (auto& fi : files) {
+            if (!args.only_ext.empty() && args.only_ext.count(fi.path.extension().string())==0) continue;
+
+            std::string report;
+            bool changed = false;
             try {
-                auto hex = sha256_hex_file(fi.path);
-                hmap[hex].push_back(fi.path);
-            } catch (const std::exception& e) {
-                std::cerr << "Hash failed: " << fi.path << " : " << e.what() << "\n";
-            }
-        }
-
-        for (auto& [hex, paths] : hmap) {
-            if (paths.size() < 2) continue;
-            ++dup_sets;
-            dup_files += paths.size() - 1;
-
-            std::cout << "\nDuplicate set (ext=" << k.first << ", size=" << k.second
-                      << ", sha256=" << hex << ")\n";
-            for (size_t i = 0; i < paths.size(); ++i) {
-                std::cout << "  [" << (i==0 ? "KEEP" : "DEL ") << "] " << paths[i].string() << "\n";
-            }
-
-            if (purge) {
-                for (size_t i = 1; i < paths.size(); ++i) {
-                    if (delete_file(paths[i])) {
-                        std::cout << "     deleted: " << paths[i].string() << "\n";
-                    }
+                auto ext = fi.path.extension().string();
+                if (ext == ".docx") {
+                    changed = docx_dedupe_paragraphs_inplace(fi.path, args.commit, report);
+                } else if (ext == ".xlsx") {
+                    changed = xlsx_dedupe_rows_inplace(fi.path, args.commit, report);
+                } else if (ext == ".txt") {
+                    // optional: simple line de-dup (keep first occurrence)
+                    // read, fingerprint lines, rewrite if needed
+                    // (left as-is to keep focus on docx/xlsx)
                 }
+            } catch (const std::exception& e) {
+                report += std::string("  [ERR] ") + e.what() + "\n";
+            }
+            if (!report.empty()) {
+                std::cout << fi.path.string() << "\n" << report;
+                if (changed) std::cout << (args.commit ? "  [WROTE]\n" : "  [WOULD WRITE]\n");
             }
         }
     }
 
-    std::cout << "\nScanned files: " << total
-              << "\nDuplicate sets: " << dup_sets
-              << "\nFiles removable: " << dup_files << "\n";
-
-    // Phase 2: inside-file dedupe (stubs or real depending on libs)
-    for (auto const& f : files) {
-        auto ext = f.path.extension().string();
-        for (auto& c : ext) c = (char)std::tolower((unsigned char)c);
-        if (ext == ".docx") {
-            if (docx_remove_duplicate_paragraphs(f.path))
-                std::cout << "[DOCX] Cleaned duplicate paragraphs: " << f.path << "\n";
-        } else if (ext == ".xlsx") {
-            if (xlsx_remove_duplicate_rows(f.path))
-                std::cout << "[XLSX] Cleaned duplicate rows: " << f.path << "\n";
-        }
+    if (!args.commit) {
+        std::cout << "\nNOTE: dry-run mode. Use --commit to apply deletions/rewrites.\n";
     }
-
     return 0;
 }

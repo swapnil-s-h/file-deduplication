@@ -13,10 +13,10 @@
     <ClCompile Include="D:\Projects\sp_project\sp-dedup\src\zip_util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\sp_project\sp-dedup\src\docx_dedupe.cpp">
+    <ClCompile Include="D:\Projects\sp_project\sp-dedup\src\xlsx_dedup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Projects\sp_project\sp-dedup\src\xlsx_dedupe.cpp">
+    <ClCompile Include="D:\Projects\sp_project\sp-dedup\src\docx_dedup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

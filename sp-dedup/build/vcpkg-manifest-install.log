@@ -1,0 +1,50 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: D:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+    minizip:x64-windows@1.3.1#1
+    tinyxml2:x64-windows@11.0.0
+  * vcpkg-cmake:x64-windows@2024-04-23
+  * vcpkg-cmake-config:x64-windows@2024-05-23
+  * vcpkg-cmake-get-vars:x64-windows@2025-05-29
+  * zlib:x64-windows@1.3.1
+Additional packages (*) will be modified to complete this operation.
+Restored 6 package(s) from C:\Users\phoenix\AppData\Local\vcpkg\archives in 619 ms. Use --debug to see more details.
+Installing 1/6 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 14.1 ms
+vcpkg-cmake:x64-windows package ABI: 3b27439921cfa7f52be59752c92576c6e1bd7f495c566cedefdf6c01c4359dcf
+Installing 2/6 zlib:x64-windows@1.3.1...
+Elapsed time to handle zlib:x64-windows: 51.5 ms
+zlib:x64-windows package ABI: 015483cf078682fecb2292f1389b2e9aa18d606d42c2a110561aa33ac397fa61
+Installing 3/6 vcpkg-cmake-get-vars:x64-windows@2025-05-29...
+Elapsed time to handle vcpkg-cmake-get-vars:x64-windows: 38.1 ms
+vcpkg-cmake-get-vars:x64-windows package ABI: 465bb8fc9553187a30a2cae77a658feb9e12016876d7b856a0d15f8648c1938f
+Installing 4/6 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 38.1 ms
+vcpkg-cmake-config:x64-windows package ABI: f536d4605c73c466b9c52c4405f17f6a4fb5ff2de8ea1afa7afa3e5b68e7aab7
+Installing 5/6 minizip:x64-windows@1.3.1#1...
+Elapsed time to handle minizip:x64-windows: 59.1 ms
+minizip:x64-windows package ABI: 4bfd7e8b8aa13b2fa16cad960a02abbf16f339a9976612f0243cdf46a3cc7bfe
+Installing 6/6 tinyxml2:x64-windows@11.0.0...
+Elapsed time to handle tinyxml2:x64-windows: 52.9 ms
+tinyxml2:x64-windows package ABI: c9d57b163264e78dc6ac6e425af89ce429f626220904879cfc37f70a60fb5ffa
+Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Packages installed in this vcpkg installation declare the following licenses:
+MIT
+Zlib
+minizip provides CMake targets:
+
+    find_package(unofficial-minizip CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial::minizip::minizip)
+
+tinyxml2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(tinyxml2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE tinyxml2::tinyxml2)
+
+tinyxml2 provides pkg-config modules:
+
+  # simple, small, C++ XML parser
+  tinyxml2
+
+All requested installations completed successfully in: 287 ms
